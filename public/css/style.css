@@ -1,0 +1,27 @@
+.category-item {
+    color: #000000; /* Màu đen */
+}
+
+/* Nếu có hover effect */
+.category-item:hover {
+    color: #0066cc; /* Màu xanh khi hover - bạn có thể điều chỉnh mã màu theo ý muốn */
+}
+
+/* Cho tất cả các mục trong dropdown */
+.dropdown-item, 
+.filter-option-inner-inner,
+.dropdown-menu li a {
+    color: #000000 !important; /* Màu đen */
+}
+
+/* Khi hover vào các mục */
+.dropdown-item:hover,
+.dropdown-menu li a:hover {
+    color: #0066cc !important; /* Màu xanh khi hover */
+    background-color: #f8f9fa; /* Màu nền nhạt khi hover */
+}
+
+/* Cho text đã chọn trong dropdown */
+.selected-option {
+    color: #000000 !important;
+} 
